@@ -55,38 +55,6 @@ npm start
 
 The application will open in your default browser at `http://localhost:3000`.
 
-## Usage
-
-### Adding a Task
-1. Click the "Add New Task" button
-2. Fill in the task details:
-   - Title (required)
-   - Description (optional)
-   - Due Date (required)
-   - Priority Level (High/Medium/Low)
-3. Click "Add Task" to save
-
-### Managing Tasks
-- **Edit**: Click the edit icon on any task to modify its details
-- **Delete**: Click the delete icon to remove a task
-- **Complete**: Toggle the checkbox to mark a task as complete
-- **Filter**: Use the search bar and filter dropdowns to find specific tasks
-
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── Dashboard.js    # Main layout component
-│   ├── TaskForm.js     # Task creation form
-│   └── TaskList.js     # Task list display
-├── context/
-│   └── TaskContext.js  # Task state management
-├── App.js              # Root component
-└── index.js           # Entry point
-
-```
-
 
 
 ## Usage
@@ -103,3 +71,19 @@ src/
 ### Search & Filter
 - Use search bar for title/description search
 - Use dropdowns to filter by priority and status
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Dashboard.js    # Main layout component
+│   ├── TaskForm.js     # Task creation form
+│   └── TaskList.js     # Task list display
+├── context/
+│   └── TaskContext.js  # Task state management
+├── App.js              # Root component
+└── index.js           # Entry point
+
+```
+
